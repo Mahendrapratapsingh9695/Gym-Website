@@ -5,24 +5,32 @@ import Container from "../GlobalComponents/Container";
 import Map from "./Map";
 import Form from "./Form";
 
-const Contact = () => (
-  <section css={styles} className="contact" id="contact">
-    <Container>
-      <Map />
-      <Form />
-    </Container>
-    <footer>
-      <p>
-        Copyright &copy; © 2020 Training Studio - Designed by{" "}
-        <a href="https://templatemo.com/" target="_blank">
-          TemplateMo
-        </a>
-      </p>
-    </footer>
-  </section>
+const Contact = () => ( <
+    section css = { styles }
+    className = "contact"
+    id = "contact" >
+    <
+    Container >
+    <
+    Map / >
+    <
+    Form / >
+    <
+    /Container> <
+    footer >
+    <
+    p >
+    Copyright & copy;© 2021 Training Studio - Designed by { " " } <
+    a href = "https://templatemo.com/"
+    target = "_blank" >
+    Mahendra <
+    /a> <
+    /p> <
+    /footer> <
+    /section>
 );
 
-const styles = css`
+const styles = css `
   width: 100%;
   .container {
     max-width: 100%;

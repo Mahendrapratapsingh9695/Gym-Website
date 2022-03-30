@@ -8,41 +8,43 @@ import TrainerOneBg from "../Image/trainerOne.jpg";
 import TrainerTwoBg from "../Image/trainerTwo.jpg";
 import TrainerThreeBg from "../Image/trainerThree.jpg";
 
-const Trainers = () => (
-  <section css={styles} className="trainers" id="trainers">
-    <h2>
-      EXPERT <span>TRAINERS</span>
-    </h2>
-    <Icon />
-    <p>
-      Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra{" "}
-      <br />
-      ipsum dolor, ultricies fermentum massa consequat eu.
-    </p>
-    <Container>
-      <TrainerCard
-        title="Strength Trainer"
-        name="Bret D. Bowers"
-        desc="Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel."
-        img={TrainerOneBg}
-      />
-      <TrainerCard
-        title="Muscle Trainer"
-        name="Hector T. Daigl"
-        desc="Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel."
-        img={TrainerTwoBg}
-      />
-      <TrainerCard
-        title="Power Trainer"
-        name="Paul D. Newman"
-        desc="Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel."
-        img={TrainerThreeBg}
-      />
-    </Container>
-  </section>
+const Trainers = () => ( <
+    section css = { styles }
+    className = "trainers"
+    id = "trainers" >
+    <
+    h2 >
+    EXPERT < span > TRAINERS < /span> <
+    /h2> <
+    Icon / >
+    <
+    p >
+    Nunc urna sem, laoreet ut metus id, aliquet consequat magna.Sed viverra { " " } <
+    br / >
+    ipsum dolor, ultricies fermentum massa consequat eu. <
+    /p> <
+    Container >
+    <
+    TrainerCard title = "Strength Trainer"
+    name = "Bret D. Bowers"
+    desc = "Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel."
+    img = { TrainerOneBg }
+    /> <
+    TrainerCard title = "Muscle Trainer"
+    name = "Hector T. Daigl"
+    desc = "Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel."
+    img = { TrainerTwoBg }
+    /> <
+    TrainerCard title = "Power Trainer"
+    name = "Paul D. Newman"
+    desc = "Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel."
+    img = { TrainerThreeBg }
+    /> <
+    /Container> <
+    /section>
 );
 
-const styles = css`
+const styles = css `
   width: 100%;
   padding: 120px 0;
   text-align: center;

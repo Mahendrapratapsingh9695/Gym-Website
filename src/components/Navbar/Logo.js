@@ -2,13 +2,13 @@
 import { jsx, css } from "@emotion/core";
 import React from "react";
 
-const Logo = () => (
-  <h2 css={styles}>
-    TRAINING <span>STUDIO</span>
-  </h2>
+const Logo = () => ( <
+    h2 css = { styles } >
+    RUFFIT < span > GYM < /span> </
+    h2 >
 );
 
-const styles = css`
+const styles = css `
   color: #fff;
   font-size: 30px;
   font-weight: 900;
